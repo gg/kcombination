@@ -14,8 +14,9 @@ The following will print the 5-combination at position 72::
 
 Boost
 ~~~~~
-kcombination depends on Boost_. ``boost::math::binomial_coefficient<T>`` to
-calculate binomial coefficients`, and  ``boost::lexical_cast`` and 
+kcombination depends on Boost_ (``boost::math::binomial_coefficient<T>`` to
+calculate binomial coefficients`, and  ``boost::lexical_cast`` to parse input
+strings into integers).
 
 Compiling
 ~~~~~~~~~
